@@ -20,14 +20,12 @@ Either:
 
 ## Using it
 
-Click the toolbar icon to open the popup:
+Refresh or reload the tab you want to capture. Click the starburst icon in your toolbar to open the popup:
 
 - **Downloads subfolder** — name of the subfolder (under your Downloads directory) where screenshots are saved
 - **JPEG quality** — Low / Medium / High
 - **Start auto-capture on click** — click to turn on; every click on a webpage after this saves a screenshot. Click again ("Auto-capturing — click to stop") to turn it off
 - **Capture current view** — takes a single screenshot of whatever tab you're currently viewing, regardless of the auto-capture setting
-
-> Content scripts only inject into pages loaded *after* the extension is installed or reloaded — refresh any tab you want to test on first.
 
 ## Known limitations
 
