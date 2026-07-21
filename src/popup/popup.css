@@ -1,0 +1,96 @@
+.popup {
+  width: 280px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-size: 14px;
+  color: #1a1a1a;
+}
+
+.popup-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.popup-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.popup-field input[type="text"],
+.popup-field select {
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.popup-field small {
+  color: #666;
+}
+
+.popup-button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.popup-capture-button {
+  padding: 8px 12px;
+  border: 1px solid #00684a;
+  border-radius: 4px;
+  background: transparent;
+  color: #00684a;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.popup-capture-button:hover {
+  background: #e3fcf7;
+}
+
+.popup-toggle-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background: #00684a;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.popup-toggle-button:hover {
+  background: #00553c;
+}
+
+.popup-toggle-button.active {
+  background: #004d36;
+}
+
+.popup-live-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ff6960;
+  animation: popup-pulse 1.2s ease-in-out infinite;
+}
+
+@keyframes popup-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
