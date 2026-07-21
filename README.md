@@ -27,6 +27,13 @@ Refresh or reload the tab you want to capture. Click the starburst icon in your 
 - **Start auto-capture on click** — click to turn on; every click on a webpage after this saves a screenshot. Click again ("Auto-capturing — click to stop") to turn it off
 - **Capture current view** — takes a single screenshot of whatever tab you're currently viewing, regardless of the auto-capture setting
 
+## Sharing the images
+1. Open the subfolder in your Downloads directory where the screenshots saved
+2. Create either a new Figma Design file or a new Lucidspark board
+3. In your Downloads subfolder, hit 'Ctrl+A' to select all images
+4. Drag & drop all images onto your canvas or board. The images will automatically organize neatly into rows.
+5. Share as normal with your collaborators for visual comments.
+
 ## Known limitations
 
 - Only captures the visible tab area (viewport), not the full scrollable page
