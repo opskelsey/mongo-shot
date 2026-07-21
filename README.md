@@ -16,7 +16,7 @@ Either:
 1. Open `chrome://extensions`
 2. Toggle on **Developer mode** (top right) — Chrome will show a "Developer mode extensions" warning banner; that's expected for unpacked extensions
 3. Click **Load unpacked** and select the `dist` folder from the files you downloaded
-4. The camera-shutter icon should appear in your toolbar
+4. The starburst icon should appear in your toolbar
 
 ## Using it
 
