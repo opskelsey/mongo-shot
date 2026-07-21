@@ -1,0 +1,1 @@
+var e=`mongo-shot:click`,t=`mongo-shot:manual-capture`;export{t as n,e as t};

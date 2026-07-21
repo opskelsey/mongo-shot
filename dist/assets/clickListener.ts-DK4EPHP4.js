@@ -1,0 +1,1 @@
+import{t as e}from"./messages-DTeOlDes.js";document.addEventListener(`click`,()=>{chrome.runtime.sendMessage({type:e}).catch(()=>{})},{capture:!0});

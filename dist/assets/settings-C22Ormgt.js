@@ -1,0 +1,1 @@
+var e={enabled:!1,subfolder:`click-shots`,quality:80};async function t(){return chrome.storage.local.get(e)}async function n(e){await chrome.storage.local.set(e)}function r(e){t().then(e),chrome.storage.onChanged.addListener((n,r)=>{r===`local`&&t().then(e)})}export{n as i,t as n,r,e as t};

@@ -2,29 +2,20 @@
 
 A Chrome extension that saves a JPEG screenshot to your Downloads folder every time you click on a webpage — or on demand with a manual capture button.
 
-This isn't published on the Chrome Web Store, so it's loaded as an "unpacked" extension. Follow the steps below to build and try it yourself.
+This isn't published on the Chrome Web Store, so it's loaded as an "unpacked" extension. No build step needed — just download and load the `dist` folder.
 
-## Prerequisites
+## Get the files
 
-- [Node.js](https://nodejs.org/) 18 or later (includes npm)
-- Google Chrome
+Either:
 
-## Setup
-
-```
-git clone https://github.com/opskelsey/mongo-shot.git
-cd mongo-shot
-npm install
-npm run build
-```
-
-This produces the built extension in a `dist/` folder.
+- Click **Code → Download ZIP** on the [GitHub repo page](https://github.com/opskelsey/mongo-shot), then unzip it, or
+- Clone it: `git clone https://github.com/opskelsey/mongo-shot.git`
 
 ## Load into Chrome
 
 1. Open `chrome://extensions`
 2. Toggle on **Developer mode** (top right) — Chrome will show a "Developer mode extensions" warning banner; that's expected for unpacked extensions
-3. Click **Load unpacked** and select the `dist` folder
+3. Click **Load unpacked** and select the `dist` folder from the files you downloaded
 4. The camera-shutter icon should appear in your toolbar
 
 ## Using it
