@@ -30,7 +30,7 @@ Refresh or reload the tab you want to capture. Click the starburst icon in your 
 ## Sharing the images
 1. Open the subfolder in your Downloads directory where the screenshots saved
 2. Create either a new Figma Design file or a new Lucidspark board
-3. In your Downloads subfolder, hit 'Ctrl+A' to select all images
+3. In your Downloads subfolder, hit `Ctrl+A` to select all images
 4. Drag & drop all images onto your canvas or board. The images will automatically organize neatly into rows.
 5. Share as normal with your collaborators for visual comments.
 
